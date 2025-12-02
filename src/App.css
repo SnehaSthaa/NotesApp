@@ -1,0 +1,10 @@
+.app-container{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.sidebar{
+  height: 120vh;
+  overflow-y:visible;
+}
