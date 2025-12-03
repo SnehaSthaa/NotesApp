@@ -3,8 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 import "./App.css";
-import { NotesProvider } from "./context/NotesContex";
+
 import { Outlet } from "react-router";
+import { NotesProvider } from "./context/NotesProvider";
 
 const App = () => {
   return (
